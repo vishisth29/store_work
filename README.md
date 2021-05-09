@@ -27,13 +27,13 @@ objOp provides the interface for the 3 methods
 
 #### Running Instruction->
 1)run the make make file-> 
-        in the CMD run the command ->make   
-        and then run the program java store
+        In the CMD run the command ->make   
+        And then run the program java store
 
 2)Use the Dockerfile->
-                                    run the command -> docker build -t store-example .
+                                    Run the command -> docker build -t store-example .
                                     After the build complets
-                                    run the command -> docker images and look for the name with store-example
+                                    Run the command -> docker images and look for the name with store-example
                                     Finally run the command -> docker run First three char of the image id        
                             
 
