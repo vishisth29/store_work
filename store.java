@@ -49,12 +49,16 @@ public class store  {
 
         @Override
         public void deleteObject(int number) {
+            try{
             if (map.containsKey(number)) {
                 map.remove(number);
                 //check to remove the object from the cache aswell
                 Cache.delete(number);
             } else {
                 //System.out.println("No Such Object");
+            }
+                }catch(Exception e){
+                //  System.out.println("No Such Object");
             }
 
 
