@@ -40,9 +40,9 @@ objOp provides the interface for the 3 methods
 
                                                 Avg                 Worst Case
 #### Time Complexity->  
-                                Put             O(1)                   O(1+logc)(Java uses tree for Collision)
+                                Put             O(1)                   O(1+log c)(Java uses tree for Collision)
                                 Get             O(1)                    O(1)
-                                Remove          O(1)                    O(n)
+                                Remove          O(1)                    O(1+log c)
 
 Link->(http://kickjava.com/src/java/util/HashMap.java.htm)
 
